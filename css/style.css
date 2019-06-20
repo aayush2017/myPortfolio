@@ -5,10 +5,18 @@
 #abt-lap video { width: 100%; }
 @font-face {
 	font-family: "railway";
-	src: url("../fonts/Raleway-Regular.ttf");
+	src: url("../webfonts/Raleway-Regular.ttf");
 }
 
-
+.social-icon {
+  display: inline-block;
+  color: #fff;
+  padding: 2%;
+  transition: all .3s;
+}
+.social-icon:hover {
+  color: blue;
+}
 .inner {
     display: table-cell;
     vertical-align: middle;
@@ -86,6 +94,7 @@ nav {
 	padding: 1% 0 1% 0;
 	z-index: 2;
 	position: relative;
+  transition: all .3s;
 }
 #logo {
 	width: 15%;
@@ -112,6 +121,11 @@ nav {
 	left: 0;
 	width: 100%;
 	z-index: 999;
+  animation: sd .3s;
+}
+@keyframes sd {
+  from { top: -100px; }
+  to { top: 0px; }
 }
 .dhactive {
 	color: #64a9e8 !important;
