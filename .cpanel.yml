@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/galaxeep/public_html/aj.galaxeepro.com
+    - /bin/cp -r * $DEPLOYPATH
