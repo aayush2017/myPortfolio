@@ -46,8 +46,17 @@
 	  		<a href="#contact">Contact Me</a>
         <div class="menuUnderline"></div>
 	  	</div>
+	  	<i class="fas fa-bars" id="bars"></i>
 	  </div>
   </nav>
+  <div id="mob-menu">
+  		<a href="#head-box">Home</a>
+  		<a href="#about">About</a>
+  		<a href="#educ">Education</a>
+  		<a href="#works">Works</a>
+  		<a href="#exper">Experience</a>
+  		<a href="#contact">Contact Me</a>
+  	</div>
   <div id="head-box">
   	<div class="mltr">
 	  	<h1>Hi Visitor</h1>
@@ -669,6 +678,11 @@ $(document).ready(function() {
 });
 </script>
 <script>
+$(document).ready(function() {
+	$("#bars").click(function() {
+		$("#mob-menu").toggleClass("addBars");
+	});
+});
   $(window).scroll(function(){
       if ($(this).scrollTop() >= 300) {
           $(".default-header").addClass("dhfix");
