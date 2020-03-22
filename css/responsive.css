@@ -6,6 +6,7 @@
 }
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+  #abt-img iframe { height: auto; }
  #contact-icon { background-color: #f44336 !important; }
  header { height: auto; padding-bottom: 5%; }
 #logo {
@@ -42,6 +43,7 @@
 }
 /* Mobile 360 */ 
 @media only screen and (min-width: 321px) and (max-width : 360px) {
+  #abt-img iframe { height: auto; }
 #contact-icon { background-color: #9c27b0 !important; }
 header { height: auto; padding-bottom: 5%; }
 #logo {
@@ -80,6 +82,7 @@ header { height: auto; padding-bottom: 5%; }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width: 361px) and (max-width : 420px) {
+  #abt-img iframe { height: auto; }
 	#contact-icon { background-color: #673ab7 !important; }
 header { height: auto; padding-bottom: 5%; }
 #logo {
@@ -116,6 +119,7 @@ header { height: auto; padding-bottom: 5%; }
 }
 	
 @media only screen and (min-width: 421px) and (max-width : 480px) {
+  #abt-img iframe { height: auto; }
  #contact-icon { background-color: #673ab7 !important; }
 header { height: auto; padding-bottom: 5%; }
 #logo {
@@ -152,6 +156,7 @@ header { height: auto; padding-bottom: 5%; }
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 481px) and (max-width : 620px){
+  #abt-img iframe { height: auto; }
 #contact-icon { background-color: #2196f3 !important; }
 header { height: auto; padding-bottom: 5%; }
 #logo {

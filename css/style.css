@@ -236,7 +236,7 @@ nav {
   animation-fill-mode: both;
 }
 
-#abt-img video {
+#abt-img iframe {
   width: 100%;
 }
 .about-title {position: relative;font-size: 2em;}
